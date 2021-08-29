@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Página principal</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h2>Produtos</h2>
+		<!-- width = largura -->
+		<table border ="2" width="100%">
+			<!-- tr = linha da tabela -->
+			<tr>
+				<!-- th = cabeçalho da tabela -->
+				<th>Código</th>
+				<th>Produto</th>
+				<th>Preço</th>
+			</tr>
+			<!-- criando outra linha da tabela -->
+			<tr>
+				<!-- td = table dada, dados da tabela -->
+				<td>001</td>
+				<td>Notebook</td>
+				<td>R$ 2.500,99</td>
+			</tr>
+			<!-- criando outra linha da tabela -->	
+			<tr>
+				<td>002</td>
+				<td>Tablet</td>
+				<td>R$ 999,99</td>
+			</tr>	
+
+			<tr>
+				<!-- extensao da linha = rowspan e quantas linhas vai ocupar -->
+				<td rowspan="2">Desconto</td>
+				<!-- extensao da coluna = colspan e quantas coluanas vai ocupar -->
+				<td colspan="2" >cupom1 - R$ 10</td>
+			</tr>	
+			<tr>				
+				<td colspan="2" >cupom2 - R$ 12</td>
+			</tr>	
+			<tr>
+				<td>Total:</td>
+				<td colspan="2">R$ 3.478,98</td>
+			</tr>
+		</table>
+		<img src="imagens/ferrari.jpg" width="50%">
+	</body>
+</html>
